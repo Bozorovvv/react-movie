@@ -5,12 +5,18 @@ body {
   min-height: calc(100vh - 70px - 64px);
   margin: 1rem 0;
 }
+.nav-wrapper {
+  color: white;
+  background-color: black;
+}
 
 .page-footer {
   padding: 0;
   height: 64px;
   display: flex;
   align-items: center;
+  background-color: black;
+  color: white;
 }
 .movies {
   display: grid;
